@@ -1,0 +1,9 @@
+namespace MangaFlow_API.Dtos.series
+{
+    public class CreateseriesDto
+    {
+        public string type { get; set; } = new string("");
+        public string name { get; set; } = new string("");
+        public Boolean is_adult_content { get; set; } = new Boolean();
+    }
+}
